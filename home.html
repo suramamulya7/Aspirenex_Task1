@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suram Amulya - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* General styles */
+        body {
+            text-align: left; /* Ensures text alignment is left throughout */
+            font-family: Arial, sans-serif; /* Example font */
+            margin: 0;
+            padding: 0;
+        }
+        
+        .container {
+            max-width: 960px; /* Adjust as needed */
+            margin: 0 auto; /* Center aligns the content */
+            padding: 20px;
+        }
+        
+        /* Header styles */
+        header {
+            background-color: #f0f0f0;
+            padding: 10px 0;
+            text-align: center;
+        }
+        
+        .header-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .header-left {
+            text-align: left;
+        }
+        
+        .header-right {
+            text-align: right;
+        }
+        
+        /* Navigation styles */
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        
+        nav li {
+            display: inline;
+            margin-right: 20px;
+        }
+        
+        .menu-btn {
+            display: none; /* Hide the menu button on larger screens */
+        }
+        
+        /* About section styles */
+        .about-section {
+            background-color: #f9f9f9;
+            padding: 20px;
+            text-align: center;
+        }
+        
+        /* Projects section styles */
+        .projects-section {
+            background-color: #e0e0e0;
+            padding: 20px;
+            text-align: left;
+        }
+        
+        .project-card {
+            margin-bottom: 20px;
+            padding: 10px;
+            background-color: #ffffff;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        }
+        
+        /* Skills section styles */
+        .skills-section {
+            background-color: #f9f9f9;
+            padding: 20px;
+            text-align: center;
+        }
+        
+        .skills-list {
+            text-align: left; /* Align list items left */
+            margin-left: 20px; /* Add left margin for indentation */
+        }
+        
+        /* Contact section styles */
+        .contact-section {
+            background-color: #e0e0e0;
+            padding: 20px;
+            text-align: center;
+        }
+        
+        .contact-form {
+            max-width: 400px;
+            margin: 0 auto;
+            text-align: left;
+        }
+        
+        .contact-form label {
+            display: block;
+            margin-bottom: 10px;
+        }
+        
+        .contact-form input,
+        .contact-form textarea {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+            box-sizing: border-box;
+        }
+        
+        .contact-form button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+        }
+        
+        .contact-info {
+            text-align: center;
+        }
+        
+        .social-links {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container header-content">
+            <div class="header-left">
+                <h1 style="color: rgb(0, 170, 255);">SURAM AMULYA</h1>
+            </div>
+            <div class="header-right">
+                <figure class="right-align">
+                    <img src="C:\Users\S.AMULYA\OneDrive\Pictures\Amulya1.jpg" height="150" alt="Amulya's Photo">
+                    <figcaption style="color: #666;">Suram Amulya</figcaption>
+                </figure>
+            </div>
+        </div>
+        <nav>
+            <div class="container">
+                <button class="menu-btn">&#9776; Menu</button>
+                <ul class="nav-menu">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="C:\Users\S.AMULYA\OneDrive\Desktop\WebProject\skills.html">Skills</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <div class="accordion">
+        <button class="accordion-button">About Me</button>
+        <div class="accordion-content">
+            <section id="about" class="about-section">
+                <div class="container">
+                    <h2>About Me</h2>
+                    <p>Welcome! I am a 2nd year CSE major with a passion for building apps and websites,
+                        focusing on user accessibility. I recently won 1st prize in a 3-day CSI hackathon on web development.
+                        In my free time, I enjoy playing throwball, which helps me relax.Gain hands-on experience and to acquire practical skills and knowledge relevant to Technical field 
+                        of study or career path within a corporate environment.</p>
+                    <p>My goal is to become a Software Development Engineer.</p>
+                    <p>In order reach this aim Iam participating in Technical workshops,Improving my Coding skills,Focussing on building strong command over tech stach</p>
+                </div>
+            </section>
+        </div>
+
+        <button class="accordion-button">Projects</button>
+        <div class="accordion-content">
+            <section id="projects" class="projects-section">
+                <div class="container">
+                    <h2>Projects</h2>
+                    <div class="project-card">
+                        <h3>Doctors Without Borders</h3>
+                        <p>In this project, I developed a website for flood-prone areas to help them easily contact nearby doctors.</p>
+                        <p><strong>Technologies:</strong> HTML, CSS, JavaScript</p>
+                        <a href="https://github.com/suramamulya7">View on GitHub</a>
+                    </div>
+                    <!-- Add more project cards as needed -->
+                </div>
+            </section>
+        </div>
+
+        <button class="accordion-button">Skills</button>
+        <div class="accordion-content">
+            <section id="skills" class="skills-section">
+                <div class="container">
+                    <h2>Skills</h2>
+                    <ul class="skills-list">
+                        <li>HyperText Markup Language(HTML)</li>
+                        <li>Cascading style sheets(CSS)</li>
+                        <li>Structured Qury Language(SQL)</li>
+                        <li>DataBase Management Systems</li>
+                        <li>C Language ,Python Programming</li>
+                        <!-- Add more skills as needed -->
+                    </ul>
+                </div>
+            </section>
+        </div>
+
+        <button class="accordion-button">Contact Me</button>
+        <div class="accordion-content">
+            <section id="contact" class="contact-section">
+                <div class="container">
+                    <h2>Contact Me</h2>
+                    <p>Feel free to get in touch with me for any questions, collaborations, or opportunities!</p>
+                    <form action="mailto:your-email@example.com" method="post" enctype="text/plain" class="contact-form">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+                        
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                        
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                        
+                        <button type="submit">Send</button>
+                    </form>
+                    <div class="contact-info">
+                        <p>Email: <a href="mailto:suramamulya7@gmail.com">suramamulya7@gmail.com</a></p>
+                        <p>Phone: <a href="tel:+1234567890">+1234567890</a></p>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/amulya-suram-41bb28257/" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
+                        <a href="https://github.com/suramamulya7" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Suram Amulya</p>
+        </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
